@@ -1,0 +1,5 @@
+/*
+    Ilya Vladyko:expanding NMC on non-linear optical effect and intricate geometry. 
+    Alexander Doronin: initiated and created the original NMC project, management of source code
+    Steven Jacques: the original author of mcsub and mcxyz kernels
+*/
