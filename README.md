@@ -1,18 +1,7 @@
-# NMC
-Project NMC: energy-efficient open source Monte Carlo algorithm for assessing photon transport in turbid media
+# NL-NMC
 
-Light propagation in turbid mediums such as atmosphere, fluids and biological
-tissues is a challenging problem which necessitates accurate simulation techniques to account
-for the effects of multiple scattering. The Monte Carlo method has long established itself as a
-gold standard and is widely adopted for simulating light transport, however, its computationally
-intensive nature often requires significant processing power and energy consumption. In this
-project a novel, open source Monte Carlo algorithm is introduced which is specifically designed for
-use with energy-efficient processors, effectively addressing those challenges, while maintaining
-the accuracy/compatibility and outperforming existing solutions. The proposed implementation
-optimizes photon transport simulations by exploiting the unique capabilities of Apple’s low-
-power, high-performance M-family of chips. The developed method has been implemented in an
-open-source software package, enabling seamless adaptation of developed algorithms for specific
-applications. The accuracy and performance are validated using comprehensive comparison with
-existing solvers commonly used for Biomedical Imaging. The results demonstrate that the new
-algorithm achieves comparable accuracy levels to those of existing techniques while significantly
-reducing computational time and energy consumption.
+Project NL-NMC: nonlinear Monte Carlo framework for modeling light–matter interactions in turbid media
+
+Light propagation in turbid media such as biological tissues involves complex multiple scattering processes that are further complicated by nonlinear optical effects. While the Monte Carlo method is widely regarded as the gold standard for modeling photon transport, extending it to nonlinear regimes introduces additional computational and algorithmic challenges. NL-NMC is an open-source Monte Carlo framework designed to address these challenges by enabling efficient simulation of both linear and nonlinear light-matter interactions. The method builds upon energy-efficient GPU architectures, with a particular focus on Apple Silicon, and introduces advanced memory handling and synchronization strategies required for modeling photon–photon coupling effects such as stimulated Raman scattering. In addition to conventional outputs like fluence and reflectance, NL-NMC provides spatially and temporally resolved radiance maps, separated by photon type, as well as detailed photon trajectory data. 
+
+The framework is implemented as a flexible and extensible software package, allowing adaptation to a wide range of biophotonics and spectroscopic applications.
